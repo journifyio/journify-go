@@ -16,13 +16,22 @@ package main
 
 import (
     "os"
+	"fmt"
 
     "github.com/journifyio/journify-go"
 )
 
 func main() {
     // Instantiates a client to use send messages to the Journify API.
-    client := journify.New(os.Getenv("JOURNIFY_WRITE_KEY"))
+    client, err := journify.NewWithConfig(os.Getenv("JOURNIFY_WRITE_KEY"), journify.Config{
+		BatchSize: 1,
+	})
+	
+	if err != nil {
+		fmt.Println("could not initialize journify client", err)
+		os.Exit(1)
+    }
+	
     defer func() { 
         _ = client.Close()
     }()

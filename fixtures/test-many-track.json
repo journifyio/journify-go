@@ -1,0 +1,47 @@
+{
+  "batch": [
+    {
+      "event": "Download",
+      "messageId": "I'm unique",
+      "properties": {
+        "application": "Journify Desktop",
+        "version": 0
+      },
+      "timestamp": "2009-11-10T23:00:00Z",
+      "type": "track",
+      "userId": "123456",
+      "writeKey": "h97jamjwbh"
+    },
+    {
+      "event": "Download",
+      "messageId": "I'm unique",
+      "properties": {
+        "application": "Journify Desktop",
+        "version": 1
+      },
+      "timestamp": "2009-11-10T23:00:00Z",
+      "type": "track",
+      "userId": "123456",
+      "writeKey": "h97jamjwbh"
+    },
+    {
+      "event": "Download",
+      "messageId": "I'm unique",
+      "properties": {
+        "application": "Journify Desktop",
+        "version": 2
+      },
+      "timestamp": "2009-11-10T23:00:00Z",
+      "type": "track",
+      "userId": "123456",
+      "writeKey": "h97jamjwbh"
+    }
+  ],
+  "context": {
+    "library": {
+      "name": "journify-go-sdk",
+      "version": "4.0.0"
+    }
+  },
+  "writeKey": "h97jamjwbh"
+}

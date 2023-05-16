@@ -53,7 +53,7 @@ func main() {
     _ = client.Enqueue(journify.Page{
         UserId:     "test-user-12345",
         Name:       "Home page",
-        Properties: analytics.NewProperties().
+        Properties: journify.NewProperties().
             SetURL("https://journify.io"),
     })
 }

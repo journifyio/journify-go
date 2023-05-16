@@ -32,9 +32,7 @@ func main() {
 		os.Exit(1)
     }
 	
-    defer func() { 
-        _ = client.Close()
-    }()
+    defer client.Close()
 	
     _ = client.Enqueue(journify.Identify{
         UserId: "test-user-12345",

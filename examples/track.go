@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/journifyio/journify-go"
 )
 import "time"
 

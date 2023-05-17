@@ -13,7 +13,7 @@ import (
 )
 
 // Version of the client.
-const Version = "0.0.4"
+const Version = "0.0.5"
 
 // Client is the main API exposed by the journify package.
 // Values that satisfy this interface are returned by the client constructors

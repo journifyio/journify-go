@@ -4,7 +4,7 @@ tasks:
     desc: Build program
     cmds:
       - go mod tidy
-      - go build -o journify-go.out cmd/cli/*.go
+      - go build -o journify-go-sdk.out cmd/cli/*.go
 
   test:
     desc: Run tests

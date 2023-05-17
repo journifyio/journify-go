@@ -1,4 +1,4 @@
-module github.com/journifyio/journify-go
+module github.com/journifyio/journify-go-sdk
 
 go 1.20
 

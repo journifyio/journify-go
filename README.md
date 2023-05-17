@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-go get github.com/journifyio/journify-go
+go get github.com/journifyio/journify-go-sdk
 ```
 
 ## Documentation
@@ -18,7 +18,7 @@ import (
     "os"
 	"fmt"
 
-    "github.com/journifyio/journify-go"
+    "github.com/journifyio/journify-go-sdk"
 )
 
 func main() {

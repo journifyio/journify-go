@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/journifyio/journify-go-sdk"
+	"github.com/journifyio/journify-go"
 	"github.com/segmentio/conf"
 )
 

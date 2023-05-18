@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/journifyio/journify-go-sdk"
 	"os"
 
-	"github.com/journifyio/journify-go"
 	"github.com/segmentio/conf"
 )
 

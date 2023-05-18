@@ -11,8 +11,8 @@
   ],
   "context": {
     "library": {
-      "name": "journify-go",
-      "version": "0.0.7"
+      "name": "journify-go-sdk",
+      "version": "0.0.8"
     }
   },
   "writeKey": "h97jamjwbh"

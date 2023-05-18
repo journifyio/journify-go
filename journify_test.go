@@ -214,8 +214,8 @@ func ExampleTrack() {
 	//   ],
 	//   "context": {
 	//     "library": {
-	//       "name": "journify-go-sdk",
-	//       "version": "0.0.8"
+	//       "name": "journify-go",
+	//       "version": "0.0.9"
 	//     }
 	//   },
 	//   "writeKey": "h97jamjwbh"

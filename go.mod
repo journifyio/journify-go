@@ -1,10 +1,10 @@
-module github.com/journifyio/journify-go-sdk
+module github.com/journifyio/journify-go
 
 go 1.20
 
 require (
 	github.com/google/uuid v1.3.0
-	github.com/segmentio/backo-go v1.0.0
+	github.com/segmentio/backo-go v1.0.1
 	github.com/segmentio/conf v1.3.0
 )
 

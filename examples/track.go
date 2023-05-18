@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/journifyio/journify-go-sdk"
+	"time"
+
+	"github.com/journifyio/journify-go"
 )
-import "time"
 
 func main() {
 	client, _ := journify.NewWithConfig("h97jamjwbh", journify.Config{
